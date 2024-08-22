@@ -18,3 +18,5 @@ AutoProcessor : This is a processor class that is used for preprocessing data fo
 Note: A tokenizer is a tool in natural language processing that breaks down text into smaller, manageable units (tokens), such as words or phrases, enabling models to analyze and understand the text.
 
 BlipForConditionalGeneration : This is a model class that is used for conditional text generation given an image and an optional text prompt. In other words, it can generate text based on an input image and an optional piece of text. This makes it useful for tasks like image captioning or visual question answering, where the model needs to generate text that describes an image or answer a question about an image.
+
+Python Imaging Library, PIL, is used to open the image file and convert it into an RGB format which is suitable for the model.
